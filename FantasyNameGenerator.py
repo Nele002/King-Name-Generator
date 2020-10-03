@@ -16,7 +16,29 @@ sub = [
     "Ron",
     "Chris",
     "Leonard",
-    "Felix"
+    "Felix",
+    "Albert",
+    "Brad",
+    "Ethan",
+    "George",
+    "Jay",
+    "Kurt",
+    "Curtis",
+    "Owen",
+    "Phillip",
+    "Seth",
+    "Tyler",
+    "Walter",
+    "Fred",
+    "Freddy",
+    "Ed",
+    "Zack",
+    "Christian",
+    "Rick",
+    "Jerry",
+    "Clark",
+    "Clyde",
+    "Julian"
 ]
 
 adj = [
@@ -28,7 +50,32 @@ adj = [
     "Small",
     "Hairy",
     "Dark",
-    "Brave"
+    "Brave",
+    "Aggresive",
+    "Driven",
+    "Scrappy",
+    "Sexy",
+    "Smart",
+    "Athletic",
+    "Bright",
+    "Gentile",
+    "Gifted",
+    "Thick",
+    "Classy",
+    "Heroic",
+    "Quiet",
+    "Daring",
+    "Wise",
+    "Kind",
+    "Devouted",
+    "Witty",
+    "Warm",
+    "Proud",
+    "Proven",
+    "Rich",
+    "Cultured",
+    "Nice",
+    "Careful"
 ]
 
 num = [
@@ -50,5 +97,5 @@ num = [
     "XVI"
 ]
 
-print("Your new name is: " + adj[random.randrange(0, 9)] + " " +
-      sub[random.randrange(0, 16)] + " " + num[random.randrange(0, 16)])
+print("Your new name is: " + adj[random.randrange(0, len(adj))] + " " +
+      sub[random.randrange(0, len(sub))] + " " + num[random.randrange(0, len(num))])
